@@ -35,4 +35,4 @@
 #   puts "Done!"
 # end
 
-DemoUser = User.create!({username: "DemoUser", email:"DemoUser@email.com", password: "password"})
+DemoUser = User.create!({username: "DemoUser1", email:"DemoUser1@email.com", password: "password"})

@@ -29,9 +29,9 @@ function LoginForm() {
   };
 
   const handleDemo=()=>{
-    setCredential("DemoUser@email.com")
+    setCredential("DemoUser1@email.com")
     setPassword("password")
-    const user = { username: 'DemoUser', password: 'password' }
+    const user = { username: 'DemoUser1', password: 'password' }
     return dispatch(sessionActions.login(user))
   }
   return (

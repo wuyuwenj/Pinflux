@@ -17,6 +17,8 @@ const CreatePinPage=()=>{
 
     }
 
+    
+
 return(
     
     <div className='pagebg'>
