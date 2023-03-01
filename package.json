@@ -13,5 +13,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuyuwenj/Pinflux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wuyuwenj/Pinflux/issues"
+  },
+  "homepage": "https://github.com/wuyuwenj/Pinflux#readme"
 }

@@ -35,7 +35,7 @@ const DropDown = () => {
 
    
 
-    console.log(sessionUser)
+    // console.log(sessionUser)
     // link for table will change later
     return (
         <div className="dropdown">

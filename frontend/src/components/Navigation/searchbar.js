@@ -8,7 +8,7 @@ const SearchBar = () => {
     const handlesubmit=(e)=>{
         e.preventDefault();
         const searchTerm = searchInput.value;
-        console.log(searchTerm);
+        // console.log(searchTerm);
     }
     return (
         <form className="search" onSubmit={handlesubmit}>
