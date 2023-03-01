@@ -1,6 +1,11 @@
 class Api::PinsController < ApplicationController
 
-  def show
+    def index
+        @pins = Pin.all
+        render :index
+    end
+
+    def show
         @pin = Pin.find(params[:id])
         render :show
     end
@@ -9,8 +14,6 @@ class Api::PinsController < ApplicationController
         @pin = Pin.new(pin_params)
 
         if @pin.save
-
-
             render :show
         else
             render json: ["somethings wrong"]
@@ -33,7 +36,7 @@ class Api::PinsController < ApplicationController
         if @pin && @pin.destroy
             render json: ["Delete success"]
         else
-            render json: ["somethings wrong"]
+            render json: @pin.errors.full_messages
         end
     end
 
