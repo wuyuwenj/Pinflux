@@ -34,3 +34,5 @@
 
 #   puts "Done!"
 # end
+
+DemoUser = User.create!({username: "DemoUser", email:"DemoUser@email.com", password: "Password"})
