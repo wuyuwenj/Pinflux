@@ -4,7 +4,7 @@ Pinflux is a Pinterest clone. Pinterest is a website that allows users to create
 
 
 
-+ Technologies
+# Technologies
 + Javascript
 + React
 + Redux
